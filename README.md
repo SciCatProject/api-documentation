@@ -1,9 +1,16 @@
 ## Swagger UI API Explorer
 
 Code taken from: https://github.com/swagger-api/swagger-ui
-Commit: fb7f12551f234684abe9c02d36713b597c263beb
+
+Commit #: fb7f12551f234684abe9c02d36713b597c263beb
 
 Serving the `latest` swagger.json file from the Catamel repository to allow public access to the API documentation.
+
+### Generating a Swagger file (from Catamel)
+
+`npm i -g loopback-cli`
+
+`lb export-api-def --json -o <FILEPATH>`
 
 ### TODO
 
